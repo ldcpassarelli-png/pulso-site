@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pulso — inteligência pedagógica pelo WhatsApp</title>
+<meta name="description" content="Pulso é uma plataforma de inteligência pedagógica para faculdades: tutor para o aluno no WhatsApp, relatório para o professor e inteligência de currículo para a instituição.">
+<style>
+  :root{
+    --azul:#0b1f3a; --azul-2:#13305a; --onda:#3fb6ff; --texto:#1c2430; --suave:#5b6675;
+    --fundo:#ffffff; --fundo-2:#f3f6fa; --borda:#dde3ea;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--texto);background:var(--fundo);line-height:1.55}
+  a{color:inherit}
+  .wrap{max-width:980px;margin:0 auto;padding:0 20px}
+  header{background:var(--azul);color:#fff}
+  .topo{display:flex;align-items:center;gap:12px;padding:20px 0}
+  .marca{font-weight:700;font-size:22px;letter-spacing:.5px}
+  .hero{padding:48px 0 64px}
+  .hero h1{font-size:clamp(28px,5vw,44px);line-height:1.15;margin:0 0 16px;max-width:760px}
+  .hero p{font-size:clamp(17px,2.2vw,20px);color:#c9d6e8;max-width:680px;margin:0}
+  .onda{display:block;width:100%;height:56px}
+  section{padding:56px 0}
+  section.cinza{background:var(--fundo-2)}
+  h2{font-size:clamp(22px,3.2vw,30px);margin:0 0 12px;color:var(--azul)}
+  .lead{color:var(--suave);max-width:720px;margin:0 0 28px;font-size:18px}
+  .grade{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+  .card{background:#fff;border:1px solid var(--borda);border-radius:12px;padding:20px}
+  .card h3{margin:0 0 6px;font-size:18px;color:var(--azul)}
+  .card .quem{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--onda);font-weight:700;margin-bottom:6px}
+  .card p{margin:0;color:var(--suave)}
+  .ciclo{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-weight:600;color:var(--azul)}
+  .ciclo span.p{background:#fff;border:1px solid var(--borda);border-radius:999px;padding:8px 14px}
+  .ciclo span.s{color:var(--onda)}
+  ul.estado{padding-left:20px;margin:0;max-width:720px}
+  ul.estado li{margin:6px 0}
+  footer{background:var(--azul);color:#c9d6e8;padding:32px 0;font-size:15px}
+  footer a{color:#fff}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="topo">
+      <svg width="40" height="24" viewBox="0 0 40 24" aria-hidden="true"><polyline points="0,12 10,12 14,3 19,21 24,8 27,12 40,12" fill="none" stroke="#3fb6ff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="marca">Pulso</div>
+    </div>
+    <div class="hero">
+      <h1>Inteligência pedagógica para faculdades, no canal que o aluno já usa.</h1>
+      <p>O aluno tira dúvidas da matéria pelo WhatsApp. O professor fica sabendo onde a turma está travando. A instituição ganha uma visão de onde o currículo pesa.</p>
+    </div>
+  </div>
+  <svg class="onda" viewBox="0 0 1200 56" preserveAspectRatio="none" aria-hidden="true"><path d="M0,56 L0,30 C200,10 400,50 600,30 C800,10 1000,50 1200,30 L1200,56 Z" fill="#ffffff"/></svg>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <h2>O problema</h2>
+      <p class="lead">A dúvida que não é resolvida numa aula vira falta de entendimento na seguinte. O professor só descobre na prova, quando já é tarde. E a faculdade não tem um dado pedagógico contínuo sobre onde os alunos travam.</p>
+    </div>
+  </section>
+
+  <section class="cinza">
+    <div class="wrap">
+      <h2>Como o Pulso funciona</h2>
+      <p class="lead">Quatro frentes conectadas. Quem contrata é a instituição; o aluno não paga.</p>
+      <div class="grade">
+        <div class="card">
+          <div class="quem">Aluno</div>
+          <h3>Tutor no WhatsApp</h3>
+          <p>Conhece o plano de aula da turma, o conteúdo e as datas. Ajuda o aluno a raciocinar em vez de só entregar a resposta.</p>
+        </div>
+        <div class="card">
+          <div class="quem">Professor</div>
+          <h3>Relatório da turma</h3>
+          <p>Mostra, a cada semana, em quais conceitos a turma está travando, para a próxima aula voltar no ponto certo.</p>
+        </div>
+        <div class="card">
+          <div class="quem">Instituição</div>
+          <h3>Inteligência de currículo</h3>
+          <p>Uma visão agregada, ao longo do tempo, de onde os alunos travam no curso. Com proteção de dados desde o início.</p>
+        </div>
+        <div class="card">
+          <div class="quem">Aluno</div>
+          <h3>Jornal do curso</h3>
+          <p>Liga notícias reais a conceitos das matérias que o aluno já cursou, para ele ver o curso funcionando fora da sala.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>O ciclo</h2>
+      <p class="lead">A resposta ao aluno é o começo. O que muda a aula é o que a turma inteira pergunta.</p>
+      <div class="ciclo">
+        <span class="p">O aluno pergunta</span><span class="s">→</span>
+        <span class="p">O professor vê onde a turma trava</span><span class="s">→</span>
+        <span class="p">A próxima aula volta no ponto certo</span><span class="s">→</span>
+        <span class="p">O aluno aprende mais</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="cinza">
+    <div class="wrap">
+      <h2>Onde estamos</h2>
+      <ul class="estado">
+        <li>O tutor já funciona pelo WhatsApp, em fase de testes.</li>
+        <li>O relatório do professor já é gerado, e estamos refinando a qualidade da leitura.</li>
+        <li>O jornal do curso está em teste.</li>
+        <li>Os primeiros projetos-piloto com instituições estão previstos para 2027.</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Pulso</strong> — inteligência pedagógica para o ensino superior.</p>
+    <p>Fale com a gente pelo <a href="https://www.linkedin.com/company/pulso-tecnologia-educacional">LinkedIn</a>.</p>
+    <!-- v2, quando o CNPJ sair: razão social, CNPJ, endereço e e-mail @pulsoedu.com.br (exigência da verificação da Meta). -->
+    <p>© 2026 Pulso</p>
+  </div>
+</footer>
+</body>
+</html>
